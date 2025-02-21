@@ -561,7 +561,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
     {/* </NavLink> */}
   </li>
   <li className="p-0 mt-2">
-    <NavLink to="/dashboard/buyers-assistant" style={{color:"rgb(226,41,151)", fontWeight:"bold"}} onClick={toggleSidebar} className={({ isActive }) => (isActive ? "active-link rounded" : "")}>
+    <NavLink to="/dashboard/get-buyer-assistance"  onClick={toggleSidebar} className={({ isActive }) => (isActive ? "active-link rounded" : "")}>
       <FaUsers />
       Buyers Assistant
     </NavLink>

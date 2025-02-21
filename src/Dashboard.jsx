@@ -107,6 +107,7 @@ import ContactTables from './Detail/ContactTables';
 import SoldOutTables from './Detail/SoldOutTables';
 import ReportPropertyTables from './Detail/ReportPropertyTables';
 import NeedHelpTables from './Detail/NeedHelpTables';
+import GetBuyerAssistance from './GetBuyerAssistance';
 const routes = [
   { path: "/loginreport", element: <LoginReport /> }, 
   { path: "/adminreport", element: <AdminReport /> },
@@ -199,6 +200,7 @@ const routes = [
   { path: "/soldout-table", element: <SoldOutTables /> },
   { path: "/report-property-table", element: <ReportPropertyTables /> },
   { path: "/property-list", element: <AddPropertyList /> },
+  { path: "/get-buyer-assistance", element: <GetBuyerAssistance /> },
 
 
 
